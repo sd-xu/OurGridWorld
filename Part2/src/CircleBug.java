@@ -1,6 +1,7 @@
-package GridWorld.GridCode.SelfBug;
+//package GridWorld.GridCode.SelfBug;
 
 import info.gridworld.actor.Bug;
+//import info.gridworld.actor.Bug;
 
 public class CircleBug extends Bug{
     

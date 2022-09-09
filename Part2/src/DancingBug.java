@@ -1,4 +1,4 @@
-package GridWorld.GridCode.SelfBug;
+//package GridWorld.GridCode.SelfBug;
 
 import info.gridworld.actor.Bug;
 
