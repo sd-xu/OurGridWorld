@@ -1,8 +1,8 @@
-# GridWorld 命令行初尝试
+## GridWorld 命令行初尝试
 
-## 案例一
+### 案例一
 
-### 进入Runner文件夹后打开终端,键入如下指令:
+#### 进入Runner文件夹后打开终端,键入如下指令:
 
 ```shell
     javac -cp "gridworld.jar" Runner.java -d .
@@ -15,9 +15,9 @@
     */
 ```
 
-### 若看到当前目录下生成了Run文件夹以及Run/Runner.class则说明编译已成功,则可以转入下一步.
+#### 若看到当前目录下生成了Run文件夹以及Run/Runner.class则说明编译已成功,则可以转入下一步.
 
-### 接下来还是在之前打开的终端中键入如下命令:
+#### 接下来还是在之前打开的终端中键入如下命令:
 
 ```shell
     java -cp ".;gridworld.jar" Run.Runner //windows
@@ -31,5 +31,5 @@
     */
 ```
 
-### 若成功运行则完成了此次任务
+#### 若成功运行则完成了此次任务
 
