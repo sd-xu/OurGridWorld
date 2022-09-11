@@ -33,7 +33,7 @@ public class BoxBug extends Bug
      */
     public BoxBug(int length)
     {
-        steps = 0;
+        steps = 8;
         sideLength = length;
     }
 
