@@ -1,5 +1,3 @@
-import static org.junit.Assert.*;
-
 public class MyJunitTest0Test {
 
     MyJunitTest0 myJunitTest0 = new MyJunitTest0();
