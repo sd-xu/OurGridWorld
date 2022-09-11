@@ -5,6 +5,6 @@ public class Main {
         System.out.println("push一下！");
         System.out.println("pull一下！");
         //啊哈哈哈哈哈哈哈啊哈
-        System.out.println("aaaaa");
+        System.out.println("aaaaaa");
     }
 }
