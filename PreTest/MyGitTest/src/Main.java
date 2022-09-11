@@ -1,4 +1,4 @@
-public class Main {
+class Part1NoCode {
     public static void main(String[] args)
     {
         System.out.println("Hello Gitee!");
