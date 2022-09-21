@@ -1,17 +1,19 @@
 import info.gridworld.actor.*;
+import info.gridworld.grid.Location;
+
+import java.awt.*;
 
 public class JumperRunner {
     
     public static void main(String[] argv){
-        //创建world
         ActorWorld world = new ActorWorld();
-        //创建world中的各种属性并加入
-        world.add(new Jumper());
-        world.add(new Bug());
+        Jumper alice = new Jumper();
+        alice.setColor(Color.ORANGE);
+        world.add(new Location(5, 5), alice);
         world.add(new Rock());
         world.add(new Flower());
+        world.add(new Bug());
         world.show();
-
     }
 
 }
