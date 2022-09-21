@@ -1,4 +1,3 @@
-
 import info.gridworld.actor.*;
 
 public class JumperRunner {
