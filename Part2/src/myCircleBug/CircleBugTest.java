@@ -13,7 +13,7 @@ public class CircleBugTest
         ActorWorld world = new ActorWorld();
         //创建bug
         CircleBug alice = new CircleBug(6);
-        //设置bug颜色
+        //设置bug的颜色
         alice.setColor(Color.BLUE);
         //把bug加到里面
         //可以多加几个bug
