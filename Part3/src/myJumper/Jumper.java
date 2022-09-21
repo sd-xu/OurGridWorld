@@ -1,3 +1,5 @@
+package myJumper;
+
 import java.awt.Color;
 import info.gridworld.actor.*;
 import info.gridworld.grid.*;

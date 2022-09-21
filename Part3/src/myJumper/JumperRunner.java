@@ -1,5 +1,7 @@
+package myJumper;
 
 import info.gridworld.actor.*;
+import myJumper.Jumper;
 
 public class JumperRunner {
     
