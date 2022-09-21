@@ -21,6 +21,6 @@ public class CircleBugJunitTest {
         world.add(new Location(2, 5), alice);
         //show the grids
         world.show();
-
+//
     }
 }
