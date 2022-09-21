@@ -9,8 +9,8 @@ public class JumperRunner {
 
         world.add(new Jumper());
         world.add(new Bug());
-
-
+        world.add(new Rock());
+        world.add(new Flower());
         world.show();
 
     }
