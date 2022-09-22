@@ -47,7 +47,6 @@ public class BlusterCritter extends ChameleonCritter{
     /**
      * reuse the code above.
      * remains something to think about.
-     * todo
      * */
     private void setLightColor(){
         Color current_color = getColor();

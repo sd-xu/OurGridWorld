@@ -24,6 +24,7 @@ public class CritterTest{
      * */
     public void testKingCrab(){
         kingcrab.setColor(Color.magenta);
+        kingcrab.setDirection(180);
         ArrayList<Flower> flowers = new ArrayList<Flower>();
         for(int i = 0;i<8;i++){
             flowers.add(new Flower());
@@ -39,7 +40,7 @@ public class CritterTest{
             }
         }
         world.step();
-        assertEquals(null,flowers.get(0).getLocation());
+        assertEquals(null,flowers.get(3).getLocation());
     }
     @Test
     /**
@@ -81,15 +82,39 @@ public class CritterTest{
      * todo
      * */
     public void testChameleonKid(){
+        ActorWorld world = new ActorWorld();
         chameleonkid.setColor(Color.GREEN);
+        chameleonkid.setDirection(0);
+        CrabCritter aCritter = new CrabCritter();
+        aCritter.setColor(Color.YELLOW);
+        world.add(new Location(6,6),chameleonkid);
+        world.add(new Location(5,6),aCritter);
+        chameleonkid.processActors(chameleonkid.getActors());
+        //todo not doing well in world.step()
+        assertEquals(aCritter.getColor(),chameleonkid.getColor());
     }
     @Test
     /**
      * test if RockHound will eat all the eatable rock.
-     * todo
      * */
     public void testRockHound(){
+        ActorWorld world = new ActorWorld();
         rockhound.setColor(Color.ORANGE);
+        world.add(new Location(0,0),rockhound);
+        ArrayList<Rock> rocks = new ArrayList<>();
+        for(int i = 0;i<3;i++)
+            rocks.add(new Rock());
+        int count = 0;
+        for(int i = 0;i<2;i++)
+            for(int j =0;j<2;j++){
+                if(i==0 && j==0) continue;
+                world.add(new Location(i,j),rocks.get(count++));
+            }
+        world.step();
+        assertEquals(null,rocks.get(0).getLocation());
+        assertEquals(null,rocks.get(1).getLocation());
+        assertEquals(null,rocks.get(2).getLocation());
+
     }
 
 }

@@ -31,7 +31,7 @@ import java.util.ArrayList;
  */
 public class ChameleonCritter extends Critter
 {
-    private static final double DARKENING_FACTOR = 0.05;
+    protected static final double DARKENING_FACTOR = 0.05;
     /**
      * if the sizeof(actors) should be zero,invoke this function.
      * Reuse the src code from class Flower
