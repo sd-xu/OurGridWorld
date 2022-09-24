@@ -1,10 +1,12 @@
+package BlusterCritter;
+
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Critter;
-
+import CritterBase.ChameleonCritter;
 import java.awt.*;
 import java.util.ArrayList;
 
-public class BlusterCritter extends ChameleonCritter{
+public class BlusterCritter extends ChameleonCritter {
 
     private int coverage;
     private static final double DARKENING_FACTOR = 0.02;
@@ -46,13 +48,15 @@ public class BlusterCritter extends ChameleonCritter{
     }
     /**
      * reuse the code above.
-     * remains something to think about.
      * */
     private void setLightColor(){
         Color current_color = getColor();
-        int red = (int) (current_color.getRed() * (1 + LIGHTENING_FACTOR));
-        int green = (int) (current_color.getGreen() * (1 + LIGHTENING_FACTOR));
-        int blue = (int) (current_color.getBlue() * (1 + LIGHTENING_FACTOR));
+//        int red = (int) (current_color.getRed() * (1 + LIGHTENING_FACTOR));
+//        int green = (int) (current_color.getGreen() * (1 + LIGHTENING_FACTOR));
+//        int blue = (int) (current_color.getBlue() * (1 + LIGHTENING_FACTOR));
+        int red =(255-(int)(current_color.getRed()))/2+(int)current_color.getRed();
+        int green = (255-(int)(current_color.getGreen()))/2+(int)current_color.getGreen();
+        int blue = (255-(int)(current_color.getBlue()))/2+(int)current_color.getBlue();
         setColor(new Color(red, green, blue));
     }
 }

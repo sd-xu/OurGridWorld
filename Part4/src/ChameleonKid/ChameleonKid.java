@@ -1,3 +1,5 @@
+package ChameleonKid;
+
 import info.gridworld.actor.Actor;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
@@ -5,8 +7,9 @@ import info.gridworld.grid.Location;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
+import CritterBase.ChameleonCritter;
 
-public class ChameleonKid extends ChameleonCritter{
+public class ChameleonKid extends ChameleonCritter {
     @Override
     /**
      * rewrite the function getActors because a kid changes its color
@@ -51,9 +54,9 @@ public class ChameleonKid extends ChameleonCritter{
     }
     private void setDarkColor(){
         Color current_color = getColor();
-        int red = (int) (current_color.getRed() * (1 - DARKENING_FACTOR));
-        int green = (int) (current_color.getGreen() * (1 - DARKENING_FACTOR));
-        int blue = (int) (current_color.getBlue() * (1 - DARKENING_FACTOR));
+        int red = (int) (current_color.getRed() * (1 - ChameleonCritter.DARKENING_FACTOR));
+        int green = (int) (current_color.getGreen() * (1 - ChameleonCritter.DARKENING_FACTOR));
+        int blue = (int) (current_color.getBlue() * (1 - ChameleonCritter.DARKENING_FACTOR));
         setColor(new Color(red, green, blue));
     }
 }

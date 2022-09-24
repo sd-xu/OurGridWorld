@@ -1,4 +1,4 @@
-/*
+package CritterBase;/*
  * AP(r) Computer Science GridWorld Case Study:
  * Copyright(c) 2005-2006 Cay S. Horstmann (http://horstmann.com)
  *
@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
 
 /**
- * A <code>ChameleonCritter</code> takes on the color of neighboring actors as
+ * A <code>CritterBase.ChameleonCritter</code> takes on the color of neighboring actors as
  * it moves through the grid. <br />
  * The implementation of this class is testable on the AP CS A and AB exams.
  */

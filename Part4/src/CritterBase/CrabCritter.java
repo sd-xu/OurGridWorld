@@ -1,3 +1,5 @@
+package CritterBase;
+
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Critter;
 import info.gridworld.grid.Grid;
@@ -5,7 +7,7 @@ import info.gridworld.grid.Location;
 import java.awt.Color;
 import java.util.ArrayList;
 /**
- * A CrabCritter looks at a limited set of neighbors when it eats and moves.
+ * A CritterBase.CrabCritter looks at a limited set of neighbors when it eats and moves.
  * This class is not tested on the AP CS A and AB Exams.
  */
 public class CrabCritter extends Critter

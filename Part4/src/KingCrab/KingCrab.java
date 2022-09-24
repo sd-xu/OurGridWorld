@@ -1,13 +1,16 @@
+package KingCrab;
+
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Critter;
 import info.gridworld.actor.Rock;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
+import CritterBase.CrabCritter;
 
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class KingCrab extends CrabCritter{
+public class KingCrab extends CrabCritter {
     private boolean moveaway(Actor actor){
         Grid grid = getGrid();
         ArrayList<Location> actorMovablelocations = grid.getEmptyAdjacentLocations(actor.getLocation());
@@ -27,7 +30,7 @@ public class KingCrab extends CrabCritter{
     }
     @Override
     /**
-     * a KingCrab will try to move another actor one location away first.
+     * a KingCrab.KingCrab will try to move another actor one location away first.
      * If failed, it will remove the actor.
      * */
     public void processActors(ArrayList<Actor> actors) {

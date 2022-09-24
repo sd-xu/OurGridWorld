@@ -1,14 +1,15 @@
-import info.gridworld.actor.Actor;
+package QuickCrab;
+
+import CritterBase.CrabCritter;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
-
-import java.lang.reflect.Array;
+import CritterBase.CrabCritter;
 import java.util.ArrayList;
 
-public class QuickCrab extends CrabCritter{
+public class QuickCrab extends CrabCritter {
     /**
-     * a QuickCrab moves two spaces to its right or left,
-     * differing from the CrabCritter.
+     * a QuickCrab.QuickCrab moves two spaces to its right or left,
+     * differing from the CritterBase.CrabCritter.
      * */
     @Override
     public ArrayList<Location> getMoveLocations() {
