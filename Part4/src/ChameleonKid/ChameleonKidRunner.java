@@ -12,7 +12,7 @@ public class ChameleonKidRunner {
     public static void main(String[] argv){
         ActorWorld world = new ActorWorld();
         ChameleonKid chameleonKid = new ChameleonKid();
-        chameleonKid.setColor(Color.ORANGE);
+        chameleonKid.setColor(Color.YELLOW);
         KingCrab kingcrab = new KingCrab();
         kingcrab.setColor(Color.magenta);
         world.add(new Flower());
