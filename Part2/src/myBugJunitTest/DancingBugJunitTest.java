@@ -15,5 +15,6 @@ public class DancingBugJunitTest {
         test.setColor(Color.CYAN);
         world.add(new Location(5,5), test);
         world.show();
+        while (true);
     }
 }

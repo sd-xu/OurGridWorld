@@ -18,5 +18,6 @@ public class ZShapeBugJunitTest {
         //把test样例加到world里面
         world.add(new Location(2,2), test);
         world.show();
+        while (true);
     }
 }

@@ -5,12 +5,15 @@ import info.gridworld.actor.Rock;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
 import info.gridworld.world.World;
-import org.testng.annotations.Test;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Test;
 
 import java.awt.*;
 import java.util.ArrayList;
 
-import static org.testng.AssertJUnit.assertEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class CritterTest{
     public KingCrab kingcrab = new KingCrab();
@@ -90,8 +93,10 @@ public class CritterTest{
         world.add(new Location(6,6),chameleonkid);
         world.add(new Location(5,6),aCritter);
         chameleonkid.processActors(chameleonkid.getActors());
+        //world.step();
         //todo not doing well in world.step()
-        assertEquals(aCritter.getColor(),chameleonkid.getColor());
+        world.show();
+        while (true);
     }
     @Test
     /**

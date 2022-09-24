@@ -16,5 +16,6 @@ public class SpiralBugJunitTest {
         //将bug加入
         world.add(new Location(5,5), test);
         world.show();
+        while (true);
     }
 }
