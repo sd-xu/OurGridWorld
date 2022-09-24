@@ -1,3 +1,5 @@
+package Jumper;
+
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Flower;
 import info.gridworld.actor.Rock;

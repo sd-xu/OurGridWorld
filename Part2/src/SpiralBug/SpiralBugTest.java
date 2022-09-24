@@ -1,3 +1,6 @@
+package SpiralBug;
+
+import SpiralBug.SpiralBug;
 import info.gridworld.actor.ActorWorld;
 import info.gridworld.grid.Location;
 import org.junit.Test;
@@ -10,7 +13,7 @@ public class SpiralBugTest
     public void act()
     {
         ActorWorld world = new ActorWorld();
-        mySpiralBug.SpiralBug test = new mySpiralBug.SpiralBug(2);
+        SpiralBug test = new SpiralBug(2);
         //设置颜色
         test.setColor(Color.GREEN);
         //将bug加入
