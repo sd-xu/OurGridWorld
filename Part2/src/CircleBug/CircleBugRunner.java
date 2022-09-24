@@ -1,3 +1,6 @@
+package CircleBug;
+
+import CircleBug.CircleBug;
 import info.gridworld.actor.ActorWorld;
 import info.gridworld.grid.Location;
 
@@ -13,7 +16,7 @@ public class CircleBugRunner
         alice.setColor(Color.BLUE);
         //把bug加到里面
         //可以多加几个bug
-        //CircleBug bob = new CircleBug(3);
+        //CircleBug.CircleBug bob = new CircleBug.CircleBug(3);
 //        world.add(new Location(5, 5), bob);
         world.add(new Location(2, 5), alice);
         //show the grids

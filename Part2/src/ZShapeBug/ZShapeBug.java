@@ -1,3 +1,5 @@
+package ZShapeBug;
+
 import info.gridworld.actor.Bug;
 
 public class ZShapeBug extends Bug{

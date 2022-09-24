@@ -1,4 +1,4 @@
-//package GridWorld.GridCode.SelfBug;
+package CircleBug;//package GridWorld.GridCode.SelfBug;
 //package myCircleBug;
 import info.gridworld.actor.Bug;
 //import info.gridworld.actor.Bug;
