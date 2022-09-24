@@ -1,3 +1,6 @@
+package Jumper;
+
+import Jumper.Jumper;
 import info.gridworld.actor.*;
 import info.gridworld.grid.Location;
 
