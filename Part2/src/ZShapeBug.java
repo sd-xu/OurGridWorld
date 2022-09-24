@@ -1,5 +1,3 @@
-package myZShapeBug;//package GridWorld.GridCode.SelfBug;
-
 import info.gridworld.actor.Bug;
 
 public class ZShapeBug extends Bug{

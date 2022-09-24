@@ -11,7 +11,7 @@ public class ZShapeBugTest
     {
         ActorWorld world = new ActorWorld();
         // 创建一个ZShape类型的测试
-        myZShapeBug.ZShapeBug test = new myZShapeBug.ZShapeBug(4);
+        ZShapeBug test = new ZShapeBug(4);
         //设置方向和颜色
         test.setDirection(90);
         test.setColor(Color.ORANGE);
