@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class SparseBoundedGrid2 <E> extends AbstractGrid<E> {
+public class SparseBoundedGrid2<E> extends AbstractGrid<E> {
     private ArrayList<LinkedList> occupantArray;
     private int numRows;
     // the grid elements
