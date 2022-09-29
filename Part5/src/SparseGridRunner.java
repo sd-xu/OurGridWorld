@@ -11,10 +11,10 @@ import info.gridworld.actor.Flower;
 public class SparseGridRunner {
     public static void main(String[] args) {
         ActorWorld world = new ActorWorld();
-        world.addGridClass("SparseBoundedGrid");
-        world.addGridClass("SparseBoundedGrid2");
-        world.addGridClass("SparseBoundedGrid3");
-        world.addGridClass("UnboundedGrid2");
+        world.addGridClass("SparseBoundedGrid.SparseBoundedGrid");
+        world.addGridClass("SparseBoundedGrid2.SparseBoundedGrid2");
+        world.addGridClass("SparseBoundedGrid3.SparseBoundedGrid3");
+        world.addGridClass("UnboundedGrid2.UnboundedGrid2");
         world.add(new Location(2, 2), new Critter());
         world.show();
     }
