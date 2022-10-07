@@ -6,9 +6,9 @@ import info.gridworld.actor.ActorWorld;
 import info.gridworld.actor.Flower;
 import info.gridworld.actor.Rock;
 import info.gridworld.grid.Location;
-import org.junit.Test;
-
+import org.testng.annotations.Test;
 import static org.junit.Assert.*;
+import static org.testng.AssertJUnit.assertEquals;
 
 
 public class JumperTest {
