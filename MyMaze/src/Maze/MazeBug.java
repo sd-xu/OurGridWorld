@@ -1,14 +1,14 @@
-package myMaze.src.Maze;
+package Maze;
 
 import info.gridworld.actor.Bug;
 import info.gridworld.actor.Flower;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
-import java.awt.Color;
-import java.awt.Component;
+
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Stack;
-import javax.swing.JOptionPane;
 
 public class MazeBug extends Bug {
     public Location next;
