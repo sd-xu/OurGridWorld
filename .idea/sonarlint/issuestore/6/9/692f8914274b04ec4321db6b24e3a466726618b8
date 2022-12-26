@@ -1,0 +1,44 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(áØšæıÿÿÿÿ
+E
+java:S3740,"/Provide the parametrized type for this generic.(¡ó¡Ó
+D
+java:S37400"/Provide the parametrized type for this generic.(ÎÔµ1
+D
+java:S37400"/Provide the parametrized type for this generic.(ÎÔµ1
+J
+java:S3740:"/Provide the parametrized type for this generic.(ª³¯Åøÿÿÿÿ
+‹
+java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÚğÖÙúÿÿÿÿ
+q
+java:S14880"\Immediately return this expression instead of assigning it to the temporary variable "var3".(ÎÔµ1
+k
+java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(äù…ğÿÿÿÿÿ
+f
+java:S1104"PMake last a static final constant or non-public and provide accessors if needed.(†¢é–
+l
+java:S1104"QMake isEnd a static final constant or non-public and provide accessors if needed.(ˆàğüÿÿÿÿ
+t
+java:S1104"YMake crossLocation a static final constant or non-public and provide accessors if needed.(áØšæıÿÿÿÿ
+p
+java:S1104"UMake stepCount a static final constant or non-public and provide accessors if needed.(×¹Ëùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–¬Õùùÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(áØšæıÿÿÿÿ
+N
+java:S1854&"8Remove this useless assignment to local variable "var3".(‘úï¦
+N
+java:S1854%"8Remove this useless assignment to local variable "var4".(à¸ª“
+?
+java:S1481%")Remove this unused "var4" local variable.(à¸ª“
+?
+java:S1481&")Remove this unused "var3" local variable.(‘úï¦
+F
+java:S1172+"+Remove this unused method parameter "var1".(ÚğÖÙúÿÿÿÿ
+A
+java:S1168."+Return an empty collection instead of null.(¥¹ï
+U
+java:S11615":Add the "@Override" annotation above this method signature(ä÷ç¨şÿÿÿÿ
+U
+java:S11619":Add the "@Override" annotation above this method signature(œ€Íùÿÿÿÿ

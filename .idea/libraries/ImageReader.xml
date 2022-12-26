@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ImageReader">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../小抄/GridWorld2015-master/stage3/ImageProcessing/ImageReader/ImageReader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

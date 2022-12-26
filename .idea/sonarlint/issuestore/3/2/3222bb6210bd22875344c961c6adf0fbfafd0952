@@ -1,0 +1,19 @@
+
+f	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø–‰
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø–‰
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğÚïÉøÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(ÓÎäÔ
+A
+java:S19059"&Remove this unnecessary cast to "int".(„³Û±ùÿÿÿÿ
+A
+java:S19059"&Remove this unnecessary cast to "int".(„³Û±ùÿÿÿÿ
+<
+java:S1905:"&Remove this unnecessary cast to "int".(ÒÔÜ
+<
+java:S1905:"&Remove this unnecessary cast to "int".(ÒÔÜ
+<
+java:S1905;"&Remove this unnecessary cast to "int".(ó•ñõ
+<
+java:S1905;"&Remove this unnecessary cast to "int".(ó•ñõ
+K
+java:S1068"5Remove this unused "LIGHTENING_FACTOR" private field.(é™ãÕ

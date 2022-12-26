@@ -1,9 +1,8 @@
-package CircleBug;//package GridWorld.GridCode.SelfBug;
-//package myCircleBug;
+package CircleBug;
 import info.gridworld.actor.Bug;
-//import info.gridworld.actor.Bug;
+import static java.awt.SystemColor.info;
 
-public class CircleBug extends Bug{
+public class CircleBug extends Bug {
     
     private int stepLen;
     private int curLen;

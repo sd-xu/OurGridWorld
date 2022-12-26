@@ -1,0 +1,9 @@
+
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×û‚8ÔÆÀ¸0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÊÛÿÿÿÿÿ
+O
+java:S1128
+"-Remove this unused import 'org.junit.Assert'.(›ëš‡úÿÿÿÿ8´åÆÀ¸0
+M
+java:S5960"+Remove this assertion from production code.(üçãÓúÿÿÿÿ8ÉÅ³À¸0

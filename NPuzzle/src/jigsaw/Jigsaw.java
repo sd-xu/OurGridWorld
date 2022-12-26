@@ -17,8 +17,6 @@ import java.util.ArrayList;
 
 /**
  * 重拼图游戏（N-数码问题）
- * @author abe
- *
  */
 public abstract class Jigsaw {
     protected JigsawNode beginJNode;        // 拼图的起始状态节点
@@ -31,9 +29,6 @@ public abstract class Jigsaw {
     private Queue<JigsawNode> exploreList;  // 用以保存已发现但未访问的节点
     private Set<JigsawNode> visitedList;    // 用以保存已发现的节点
 
-    /**
-     * 拼图构造函数
-     */
     public Jigsaw() {
         this.beginJNode = null;
         this.endJNode = null;
@@ -80,13 +75,6 @@ public abstract class Jigsaw {
         return jigsawNode;
     }
 
-    /**
-     * Returns true if the path with initial state and target state is valid.
-     * @param path - a path which record every step from the initial state to the target state
-     * @param startNode - a jigsaw node which indicate initial state
-     * @param destNode - a jigsaw node which indicate target state
-     * @return true if the path is valid
-     */
     public static final boolean isValidPath(List<JigsawNode> path, JigsawNode startNode, JigsawNode destNode) {
         if (path == null || path.isEmpty() || path.contains(null)) {
             return false;

@@ -1,4 +1,4 @@
-package Runners;
+package NPuzzle.src.Runners;
 
 import java.io.IOException;
 

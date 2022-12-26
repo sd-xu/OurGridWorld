@@ -1,0 +1,10 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾úŸ’ÿÿÿÿÿ
+t
+java:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(Äœ«ùÿÿÿÿ
+i
+java:S11923"LDefine a constant instead of duplicating this literal "loc == null" 3 times.(‘Ú¸›8ÓÙ ¸0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±Ì»àúÿÿÿÿ
+R
+java:S1128"5Remove this unused import 'info.gridworld.grid.Grid'.(ş«ÈÀ8“Ú£À¸0
