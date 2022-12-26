@@ -9,8 +9,6 @@ import info.gridworld.grid.Location;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static org.testng.AssertJUnit.assertEquals;
-
 
 public class JumperTest {
     private ActorWorld world;

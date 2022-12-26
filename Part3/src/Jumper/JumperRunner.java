@@ -8,7 +8,7 @@ import java.awt.*;
 
 public class JumperRunner {
     
-    public static void main(String[] argv){
+    public static void main(String[] argv) {
         ActorWorld world = new ActorWorld();
         Jumper alice = new Jumper();
         alice.setColor(Color.ORANGE);
