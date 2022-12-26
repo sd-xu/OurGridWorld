@@ -69,10 +69,10 @@ public class Solution extends Jigsaw {
                 }
             }
         }
-        //System.out.println("Jigsaw BFS Search Result:");
-        //System.out.println("Solution Path: ");
-        //System.out.println(this.getSolutionPath());
-        //System.out.println("Depth of the current node is:" + this.getCurrentJNode().getNodeDepth());
+        System.out.println("Jigsaw BFS Search Result:");
+        System.out.println("Solution Path: ");
+        System.out.println(this.getSolutionPath());
+        System.out.println("Depth of the current node is:" + this.getCurrentJNode().getNodeDepth());
         return true;
     }
 
