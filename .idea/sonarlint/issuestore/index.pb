@@ -1,10 +1,6 @@
 
 O
 PreToolTest/MyAntTest/build.xml,1\a\1a59bbbfb3155188b055f11d5af0c36266d7b86e
-_
-/Part5/src/SparseBoundedGrid2/OccupantInCol.java,6\3\639ba65050840f9000754898eba5bfbac64df354
-_
-/Part5/src/SparseBoundedGrid/SparseGridNode.java,7\c\7c0b64a4586cbf109f3adc91e28ae4e82be2998d
 \
 ,Part4/src/ChameleonKid/ChameleonKidTest.java,8\a\8a5ae65c166de88d56fc4e8ec1040c0e29ff4f31
 ^
@@ -21,8 +17,6 @@ W
 'framework/info/gridworld/grid/Grid.java,3\d\3d20bd324d19949c0c94215c2ef82cf90076fdcd
 _
 /framework/info/gridworld/grid/AbstractGrid.java,4\0\402150aaf0596215db0983413157284c253a8f57
-d
-4Part5/src/SparseBoundedGrid3/SparseBoundedGrid3.java,4\1\41428fbf619257b5a963b3eb0cbf4fa2f7a58a82
 w
 G.idea/sonarlint/issuestore/1/a/1a59bbbfb3155188b055f11d5af0c36266d7b86e,1\7\177e84710fa5dc7c6c6ff0f3ba53a2b0bf69e1ff
 w
@@ -31,8 +25,6 @@ h
 8Part5/src/SparseBoundedGrid3/SparseBoundedGrid3Test.java,c\a\ca7b22f2913d6ce50086b3a1672dd4af55ee58e7
 h
 8Part5/src/SparseBoundedGrid2/SparseBoundedGrid2Test.java,2\6\26f1c599931864408e2d18fb162dc9e48f766b4a
-\
-,Part5/src/UnboundedGrid2/UnboundedGrid2.java,7\4\74bc5851e81e11fc67f4de43b608eebbbd31c856
 ^
 .framework/info/gridworld/actor/ActorWorld.java,7\f\7ffe53b120a6d432d5f73aa48979e9312e949f54
 `
@@ -41,8 +33,6 @@ L
 MyMaze/src/Maze/MazeBug.java,6\9\692f8914274b04ec4321db6b24e3a466726618b8
 J
 Part1/src/Part1NoCode.java,a\7\a7b17acbf5296faa651d8e8717b43c94d3401e99
-d
-4Part5/src/SparseBoundedGrid2/SparseBoundedGrid2.java,b\5\b50fed63e8daeef68b157e269a1c9c85632d14b8
 V
 &Part2/src/CircleBug/CircleBugTest.java,5\5\5523f0ad2bcc51f053af9fad381cd878e72fde1c
 Z

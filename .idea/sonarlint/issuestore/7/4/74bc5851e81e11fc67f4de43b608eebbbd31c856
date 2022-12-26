@@ -1,12 +1,0 @@
-
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(šş¬
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë•ÕÏ
-2
-java:S1116"Remove this empty statement.(Àõ’
-v
-java:S3012["YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(«ÕÁÚ8ı†ú·0
-R
-java:S1128"5Remove this unused import 'info.gridworld.grid.Grid'.(ş«ÈÀ8£¾µÀ¸0
-C
-java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8£¾µÀ¸0
