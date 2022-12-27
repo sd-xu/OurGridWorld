@@ -78,6 +78,11 @@ GridWorld AP Computer Science Case Study Student Manual
 - 解答课后习题：对于Part5的Do you Know问题，小组成员的答案在OurGridWorld中的Part5/Part5.docx中。
 - 主要工作：
   1. 具体的代码实现都在Part 5/src下。每个类采用Junit.Test方法进行测试，各有一个测试类，通过断言进行测试。通过SparseGridRunner运行查看不同Grid的运行效果。
+### Part MazeBug
+
+- 实现代码：实现MazeBug类的方法。
+- 主要工作：
+  1. 利用深度优先探索算法（DFS）走出迷宫。
 
 ### Part N-Puzzle   
 - 实现代码：实现NPuzzle-solution类的方法
